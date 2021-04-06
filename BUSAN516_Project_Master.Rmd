@@ -1,6 +1,6 @@
 ---
 title: "BUSAN516_Project"
-author: "Sean Yen"
+author: "Team 1b"
 date: "3/5/2021"
 output:
   word_document: default
@@ -200,8 +200,4 @@ importance_matrix = xgb.importance(model = xgb.model)
 # xgb.plot.importance(importance_matrix,top_n = 10, rel_to_first = TRUE, xlab = "Relative importance")
 library(Ckmeans.1d.dp)
 xgb.ggplot.importance(importance_matrix, rel_to_first = TRUE, xlab = "Relative importance")
-```
-
-```{r}
-# write.csv(HotelsTest, file = "BUSAN516_Project_ModelResults.csv")
 ```
